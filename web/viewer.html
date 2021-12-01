@@ -442,6 +442,7 @@ See https://github.com/adobe-type-tools/cmap-resources
         });
     }
     document.addEventListener('webviewerloaded', () => {
+      alert('enable pinch');
         if (!pinchZoomEnabled) {
             pinchZoomEnabled = true;
             enablePinchZoom();
